@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress India Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #f8f9fa; }
+    #chatbox {
+      width: 90%; max-width: 400px; margin: 20px auto;
+      border: 1px solid #ccc; border-radius: 10px; background: white; padding: 10px;
+    }
+    #messages { height: 300px; overflow-y: auto; text-align: left; margin-bottom: 10px; }
+    input { width: 70%; padding: 8px; }
+    button { padding: 8px 15px; background: #007BFF; color: white; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Progress India Chatbot</h2>
+  <div id="chatbox">
+    <div id="messages"></div>
+    <input type="text" id="userInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
